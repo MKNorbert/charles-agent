@@ -1,0 +1,4 @@
+CHARLESAGENT MEMORY LOG – INITIALIZED
+-------------------------------
+• [EMPTY] – waiting for first pattern
+• System ready for learning mode

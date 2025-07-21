@@ -1,0 +1,34 @@
+{
+  "modules": [
+    {
+      "name": "Trap Guard",
+      "category": "V\u00e9delem",
+      "priority": 1,
+      "status": "active"
+    },
+    {
+      "name": "ROI Memory",
+      "category": "Tanul\u00e1s",
+      "priority": 2,
+      "status": "active"
+    },
+    {
+      "name": "Motivation Sync",
+      "category": "Pszichol\u00f3gia",
+      "priority": 2,
+      "status": "active"
+    },
+    {
+      "name": "Auto-Replace",
+      "category": "Biztons\u00e1g",
+      "priority": 3,
+      "status": "active"
+    },
+    {
+      "name": "Zero Margin Tolerance",
+      "category": "Piacsz\u0171r\u00e9s",
+      "priority": 1,
+      "status": "active"
+    }
+  ]
+}

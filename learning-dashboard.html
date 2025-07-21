@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CharlesAgent Learning Dashboard</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #0d1117; color: #f0f6fc; padding: 20px; }
+    h1 { text-align: center; color: #58a6ff; }
+    .module, .log-entry { background: #161b22; border-radius: 8px; padding: 10px; margin: 10px auto; max-width: 600px; }
+    .section-title { color: #79c0ff; margin-top: 30px; text-align: center; }
+  </style>
+</head>
+<body>
+  <h1>CharlesAgent – Learning Dashboard</h1>
+
+  <h2 class="section-title">🧠 Active Modules</h2>
+  <div id="modules"></div>
+
+  <h2 class="section-title">📜 Learning Log</h2>
+  <div id="memory"></div>
+
+  <script>
+    // Modul adatok betöltése
+    const modules = [
+      { name: "Trap Guard", category: "Védelem", status: "active" },
+      { name: "ROI Memory", category: "Tanulás", status: "active" },
+      { name: "Motivation Sync", category: "Pszichológia", status: "active" },
+      { name: "Auto-Replace", category: "Biztonság", status: "active" },
+      { name: "Zero Margin Tolerance", category: "Piacszűrés", status: "active" }
+    ];
+    const memoryLog = [
+      "System initialized and ready.",
+      "No failures recorded yet.",
+      "Next step: connect live match data."
+    ];
+
+    const modContainer = document.getElementById("modules");
+    modules.forEach(m => {
+      modContainer.innerHTML += `<div class='module'>✅ <strong>${m.name}</strong> — ${m.category}</div>`;
+    });
+
+    const memContainer = document.getElementById("memory");
+    memoryLog.forEach(log => {
+      memContainer.innerHTML += `<div class='log-entry'>🧩 ${log}</div>`;
+    });
+  </script>
+</body>
+</html>
