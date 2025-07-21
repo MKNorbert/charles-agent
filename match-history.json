@@ -1,0 +1,24 @@
+{
+  "matches": [
+    {
+      "id": "M001",
+      "result": "loss",
+      "reason": "Motivation mismatch"
+    },
+    {
+      "id": "M002",
+      "result": "loss",
+      "reason": "Odds too tight"
+    },
+    {
+      "id": "M003",
+      "result": "win",
+      "reason": "Safe pattern"
+    },
+    {
+      "id": "M004",
+      "result": "loss",
+      "reason": "Motivation mismatch"
+    }
+  ]
+}

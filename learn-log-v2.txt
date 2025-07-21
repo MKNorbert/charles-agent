@@ -1,0 +1,8 @@
+CHARLESAGENT – LEARNING LOG v2
+--------------------------------
+• M001 – LOSS – Motivation mismatch
+• M002 – LOSS – Odds too tight
+• M003 – WIN  – Safe pattern
+• M004 – LOSS – Motivation mismatch
+⚠️ Detected: recurring issue → Motivation mismatch
+Suggested: increase weight of Motivation Sync module.
