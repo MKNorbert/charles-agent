@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CharlesAgent Dashboard PRO</title>
+  <script>
+    const password = "Spartacus88";
+    function checkPass() {
+      const input = prompt("Enter password to view the dashboard:");
+      if (input !== password) {
+        document.body.innerHTML = "<h2 style='color:red;text-align:center;'>Access Denied</h2>";
+      }
+    }
+    window.onload = checkPass;
+  </script>
+</head>
+<body style="background:#0d1117;color:#f0f6fc;font-family:Arial;padding:20px;">
+  <h1 style="text-align:center;color:#58a6ff;">CharlesAgent Dashboard PRO</h1>
+  <p>Modulok, context feed és SAFE COMBO előkészítés aktív.</p>
+</body>
+</html>

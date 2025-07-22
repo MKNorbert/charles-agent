@@ -1,0 +1,42 @@
+{
+  "modules": [
+    {
+      "name": "Trap Guard",
+      "category": "V\u00e9delem",
+      "priority": 1,
+      "status": "active",
+      "linked": [
+        "Motivation Sync",
+        "Zero Margin Tolerance"
+      ]
+    },
+    {
+      "name": "ROI Memory",
+      "category": "Tanul\u00e1s",
+      "priority": 2,
+      "status": "active",
+      "linked": [
+        "Auto-Replace"
+      ]
+    },
+    {
+      "name": "Sharp Money Detection",
+      "category": "Meta Intelligence",
+      "priority": 3,
+      "status": "active",
+      "linked": [
+        "Odds Tracker"
+      ]
+    },
+    {
+      "name": "Mass Confidence Alignment",
+      "category": "Meta Intelligence",
+      "priority": 3,
+      "status": "active",
+      "linked": [
+        "Forebet AI",
+        "KickForm AI"
+      ]
+    }
+  ]
+}

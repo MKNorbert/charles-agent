@@ -1,0 +1,18 @@
+{
+  "matches": {
+    "Molde vs Haka": {
+      "type": "Europa League Q",
+      "weather": "Clear",
+      "motivation": "High",
+      "lineup": "Full squad",
+      "odds_alert": false
+    },
+    "GAIS vs Vasteras": {
+      "type": "Club Friendly",
+      "weather": "Rain",
+      "motivation": "Low",
+      "lineup": "Rotated",
+      "odds_alert": true
+    }
+  }
+}
