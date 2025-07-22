@@ -1,0 +1,6 @@
+{
+  "Core": ["Trap Guard", "Motivation Sync", "Form Validator"],
+  "Memory": ["ROI Memory", "Pattern Log", "Recovery Tracker"],
+  "Filter": ["LockMode", "Zero Margin Tolerance", "Trust Breaker"],
+  "Meta": ["Mass Confidence Alignment", "Sharp Money Detection", "Crowd Bias Filter"]
+}

@@ -1,22 +1,6 @@
 {
   "matches": [
-    {
-      "home": "Molde",
-      "away": "Haka",
-      "odds": {
-        "home": 1.8,
-        "draw": 3.4,
-        "away": 4.2
-      }
-    },
-    {
-      "home": "GAIS",
-      "away": "Vasteras",
-      "odds": {
-        "home": 2.0,
-        "draw": 3.1,
-        "away": 3.5
-      }
-    }
+    {"home": "Molde", "away": "Haka", "odds": {"home": 1.80, "draw": 3.40, "away": 4.20}},
+    {"home": "GAIS", "away": "Vasteras", "odds": {"home": 2.00, "draw": 3.10, "away": 3.50}}
   ]
 }

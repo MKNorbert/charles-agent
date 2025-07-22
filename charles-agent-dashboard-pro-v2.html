@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CharlesAgent PRO v2</title>
+  <script>
+    const password = "Spartacus88";
+    function checkPassword() {
+      const pass = prompt("Enter password:");
+      if (pass !== password) {
+        document.body.innerHTML = "<h2 style='color:red;text-align:center;'>Access Denied</h2>";
+      }
+    }
+    window.onload = checkPassword;
+  </script>
+</head>
+<body style="background:#0d1117;color:#f0f6fc;font-family:Arial;">
+  <h1 style="text-align:center;color:#58a6ff;">CharlesAgent PRO Dashboard v2</h1>
+  <ul style="text-align:center;">
+    <li>📦 Modulrétegek aktív</li>
+    <li>🧠 Context-analyzer bekötve</li>
+    <li>🔐 Biztonsági szűrés aktív</li>
+    <li>⚽ Meccslista betöltve</li>
+  </ul>
+</body>
+</html>
