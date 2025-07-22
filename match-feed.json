@@ -1,6 +1,94 @@
 {
   "matches": [
-    {"home": "Molde", "away": "Haka", "odds": {"home": 1.80, "draw": 3.40, "away": 4.20}},
-    {"home": "GAIS", "away": "Vasteras", "odds": {"home": 2.00, "draw": 3.10, "away": 3.50}}
+    {
+      "home": "Molde",
+      "away": "Haka",
+      "odds": {
+        "home": 1.8,
+        "draw": 3.4,
+        "away": 4.2
+      }
+    },
+    {
+      "home": "GAIS",
+      "away": "Vasteras",
+      "odds": {
+        "home": 2.0,
+        "draw": 3.1,
+        "away": 3.5
+      }
+    },
+    {
+      "home": "Ferencvaros",
+      "away": "Debrecen",
+      "odds": {
+        "home": 1.95,
+        "draw": 3.2,
+        "away": 3.8
+      }
+    },
+    {
+      "home": "Riga FC",
+      "away": "Liepaja",
+      "odds": {
+        "home": 1.6,
+        "draw": 3.8,
+        "away": 5.2
+      }
+    },
+    {
+      "home": "Malmo",
+      "away": "Halmstad",
+      "odds": {
+        "home": 1.5,
+        "draw": 4.0,
+        "away": 6.0
+      }
+    },
+    {
+      "home": "Jablonec",
+      "away": "Zlin",
+      "odds": {
+        "home": 2.1,
+        "draw": 3.0,
+        "away": 3.5
+      }
+    },
+    {
+      "home": "AIK",
+      "away": "IFK Goteborg",
+      "odds": {
+        "home": 2.4,
+        "draw": 3.1,
+        "away": 2.9
+      }
+    },
+    {
+      "home": "Stjarnan",
+      "away": "KR Reykjavik",
+      "odds": {
+        "home": 2.0,
+        "draw": 3.3,
+        "away": 3.2
+      }
+    },
+    {
+      "home": "HJK",
+      "away": "Ilves",
+      "odds": {
+        "home": 1.7,
+        "draw": 3.4,
+        "away": 4.8
+      }
+    },
+    {
+      "home": "Midtjylland",
+      "away": "Viborg",
+      "odds": {
+        "home": 1.85,
+        "draw": 3.5,
+        "away": 4.0
+      }
+    }
   ]
 }
