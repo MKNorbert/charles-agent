@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CharlesAgent App v1.0</title>
+  <style>
+    body { margin: 0; background: #0d1117; color: #f0f6fc; font-family: Arial; }
+    nav { background: #161b22; padding: 12px; display: flex; justify-content: space-around; position: sticky; top: 0; }
+    nav a { color: #58a6ff; text-decoration: none; font-weight: bold; }
+    section { padding: 20px; }
+    .active { text-decoration: underline; }
+    .btn { padding: 8px 16px; background: #238636; border: none; color: white; cursor: pointer; border-radius: 5px; margin-top: 10px; }
+  </style>
+  <script>
+    const password = "Spartacus88";
+    function checkPassword() {
+      const p = prompt("Enter password:");
+      if (p !== password) {
+        document.body.innerHTML = "<h1 style='color:red;text-align:center;'>Access Denied</h1>";
+      }
+    }
+    function show(sectionId) {
+      document.querySelectorAll('section').forEach(s => s.style.display = 'none');
+      document.getElementById(sectionId).style.display = 'block';
+      document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+      document.getElementById("nav-" + sectionId).classList.add('active');
+    }
+    window.onload = () => { checkPassword(); show('home'); };
+  </script>
+</head>
+<body>
+  <nav>
+    <a href="#" id="nav-home" onclick="show('home')">🏠 Home</a>
+    <a href="#" id="nav-tips" onclick="show('tips')">⚽ SAFE COMBO</a>
+    <a href="#" id="nav-modules" onclick="show('modules')">🧠 Modulok</a>
+    <a href="#" id="nav-log" onclick="show('log')">📋 Log</a>
+  </nav>
+
+  <section id="home">
+    <h1>Üdvözöl a CharlesAgent App v1.0</h1>
+    <p>Itt most már nem csak egy AI dolgozik érted – hanem egy teljes rendszer, amit te vezérelsz. Válassz fenti menüpontot!</p>
+  </section>
+
+  <section id="tips" style="display:none;">
+    <h2>SAFE COMBO ajánlások</h2>
+    <ul>
+      <li><strong>Molde to WIN</strong> – 91% confidence (ROI Memory, Trap Guard)</li>
+      <li><strong>Ferencvaros to WIN</strong> – 90% confidence (Motivation Sync, ROI Memory)</li>
+      <li><strong>Malmo to WIN</strong> – 92% confidence (Mass Confidence, Sharp Money Detection)</li>
+    </ul>
+  </section>
+
+  <section id="modules" style="display:none;">
+    <h2>Aktív modulok</h2>
+    <ul>
+      <li>Trap Guard ✅</li>
+      <li>ROI Memory ✅</li>
+      <li>Mass Confidence Alignment ✅</li>
+      <li>Sharp Money Detection ✅</li>
+    </ul>
+  </section>
+
+  <section id="log" style="display:none;">
+    <h2>AI log / döntésmagyarázat</h2>
+    <p>GAIS vs Vasteras kizárva – Trap Guard aktív (barátságos + rotált kezdő).</p>
+    <p>Ferencvaros meccs ajánlva – Motiváció magas, odds kiegyensúlyozott.</p>
+  </section>
+</body>
+</html>
